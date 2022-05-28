@@ -1,0 +1,22 @@
+each compoments classname = "title" + elementName;
+params for form = {
+    title: will be used for form classname{form classname=title+form, btn classname = title+BTN}
+    url,
+    method,
+    btnTitle,
+    fields(obj):[
+        {field1 name,field1 type},
+        {field2 name,field2 type},.....
+    ]
+}
+
+to use btn component:{
+    pass in params={
+        btnTitle:{
+            text-content of the button
+        }
+        title:{
+            title+Btn can be used to restyle the btn
+        }
+    }
+}

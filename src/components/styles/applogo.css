@@ -1,0 +1,17 @@
+.logo{
+    text-align: left;
+
+}
+.header{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 3px;
+}
+.subscript{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    font-family: italic;
+    font-size: 35px;
+    color: orangered;
+}

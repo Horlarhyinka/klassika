@@ -1,0 +1,20 @@
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 180px;
+    height: 38px;
+    padding-bottom: 2px;
+    font-size: 30px;
+    border-radius: 3px;
+    border: solid 3px rgb(71, 71, 251);
+    
+}
+button:hover{
+   background-color:rgb(71, 71, 251) ; 
+}
+button:active{
+    background-color:rgb(3, 3, 101) ;
+    width: 182px;
+    height: 39px;
+}

@@ -1,0 +1,10 @@
+.landingpageBtn{
+    position: absolute;
+    right: 8px;
+    top: 4px;
+}
+ @media screen and (max-width:580px){
+     .landingpageBtn{
+         display: none;
+     }
+ }
