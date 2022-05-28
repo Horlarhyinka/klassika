@@ -1,0 +1,14 @@
+form{
+    display: inline-block;
+    width: 400px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.313);
+
+}
+.invalid{
+    border: 2px solid red;
+}
+
+.valid{
+    border: 2px solid green;
+}

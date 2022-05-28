@@ -12,7 +12,7 @@ const LandingPage = () => {
         <div className="section">
         <SignUpForm/>
         <div className="cards">
-            <LandingPageCard icon={<h1>icon</h1>} writeup={"writeup goes here"} />
+            <LandingPageCard icon={<span class="iconify" data-icon="ic:sharp-engineering" data-width="120" data-height="120"></span>} writeup={"writeup goes here"} />
         </div>
         </div>
         

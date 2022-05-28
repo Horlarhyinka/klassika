@@ -3,6 +3,14 @@
     right: 8px;
     top: 4px;
 }
+.section{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.cards{
+    width: 60%;
+    
+}
  @media screen and (max-width:580px){
      .landingpageBtn{
          display: none;

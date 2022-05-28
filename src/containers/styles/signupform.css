@@ -1,0 +1,30 @@
+.signUpFormForm{
+    display: block;
+    align-self: left;
+    padding-top: 35px;
+    background-color: rgba(101, 95, 95, 0.187);
+    height: 500px auto;
+    text-align: center;
+}
+cursor{
+    z-index: 4;
+    color: orangered;
+    background-color: orangered;
+}
+
+input{
+    display: inline-block;
+    background-color: rgba(255, 251, 251, 0.275);
+    width: 80% ;
+    height: 28px;
+    color:white;
+    font-size: 24px;
+    
+}
+label{
+    display: block;
+    font-size: 34px;
+}
+.signUpFormBtn{
+    margin-top: 35px;
+}

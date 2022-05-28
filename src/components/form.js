@@ -1,4 +1,5 @@
-import Btn from './btn.js'
+import Btn from './btn.js';
+import './styles/form.css';
 
 const Form = ({title, btnTitle, fields, method, url }) => {
 const sections = fields.map((field,i) =>{
@@ -10,9 +11,10 @@ const sections = fields.map((field,i) =>{
   )
 })
 
-  return (<form className={`${title}Form`} method = {method}>
+  return (<form className={`${title}Form`} action={url} method = {method}>
     { sections }
-    <Btn/>
+    <Btn btnTitle={btnTitle} title={title} />
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
   </form>)
 }
 export default Form;
