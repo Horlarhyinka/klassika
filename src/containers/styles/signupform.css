@@ -1,16 +1,13 @@
-.signUpFormForm{
+.signUpFormForm,.signUpForm{
     display: block;
     align-self: left;
-    padding-top: 35px;
-    background-color: rgba(101, 95, 95, 0.187);
+    /* padding-top: 35px; */
+    background-color: rgba(101, 95, 95, 0.187) !important;
     height: 500px auto;
     text-align: center;
+    margin-left: auto;
 }
-cursor{
-    z-index: 4;
-    color: orangered;
-    background-color: orangered;
-}
+
 
 input{
     display: inline-block;
@@ -27,4 +24,24 @@ label{
 }
 .signUpFormBtn{
     margin-top: 35px;
+    padding-bottom: 5px;
+}
+.signUpFormForm + p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.653);
+    cursor: pointer;
+}
+.signUpFormForm + p + p{
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.signUpFormForm + p + p:hover{
+    color: rgb(242, 131, 61);
+}
+@media screen and (max-width:1200px) {
+    .signUpFormForm,.signUpForm{
+        margin-right: auto;
+    }
 }

@@ -3,13 +3,14 @@ import './App.css';
 import LandingPage from './containers/landing-page';
 import AppLogo from './components/logo';
 
-
 function App() {
   return (
-   <div className='App'>
+     <div className='App'>
         <AppLogo/>
         <LandingPage/>
-   </div>
+   </div>  
+ 
+  
   );
 }
 

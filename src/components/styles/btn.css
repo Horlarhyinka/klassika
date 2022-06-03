@@ -8,6 +8,7 @@ button{
     font-size: 30px;
     border-radius: 3px;
     border: solid 3px rgb(71, 71, 251);
+    cursor: pointer;
     
 }
 button:hover{

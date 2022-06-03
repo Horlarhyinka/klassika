@@ -1,0 +1,24 @@
+.landingpagecard{
+    margin: 3px auto;
+    margin-left: 12px;
+    margin-right: 7px;
+    display: inline-block;
+    width: 90%;
+    justify-content: space-around;
+}
+.landingpagecard:hover{
+    transform: scale3d(1.05,1.05,1.05);
+    border-radius: 12px;
+    box-shadow: inset 4px 4px 12px rgb(83, 83, 83);
+}
+.landingpagecard p{
+    font-size: 34px;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and(max-width: 1200px){
+    .landingpagecard{
+        display: inline-block;
+    }
+}

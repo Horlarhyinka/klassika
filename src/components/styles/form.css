@@ -4,9 +4,16 @@ form{
     height: 450px;
     background-color: rgba(0, 0, 0, 0.313);
 
+} 
+form :nth-child(1){
+    padding-top: 25px;
 }
 .invalid{
-    border: 2px solid red;
+    border: 2px solid red ;
+    box-shadow: inset, 2, 3, 6, rgb(231, 157, 157);
+}
+input:focus,select:focus{
+    outline: none;
 }
 
 .valid{

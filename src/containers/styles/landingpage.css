@@ -5,14 +5,40 @@
 }
 .section{
     display: inline-flex;
-    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 12px;
 }
 .cards{
     width: 60%;
+    height: 550px;
+    overflow-y:auto;
     
+    
+}
+@media screen and (max-width:1200px) {
+    .cards{
+        display: block;
+        width: 98%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+}
+.clockIcon{
+    color: rgba(255, 68, 0, 0.89);
+    font-size: 180px;
 }
  @media screen and (max-width:580px){
      .landingpageBtn{
          display: none;
      }
+ }
+
+ @media screen and (max-width:1200px){
+     .section{
+         display:inline-flex;
+         width: 100%;
+         flex-direction: column-reverse;
+     }
+     
  }
