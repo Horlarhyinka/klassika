@@ -1,3 +1,5 @@
+import "./styles/home-cards.css";
+
 const HomeDepartmentCard = ({icon, deptName}) =>{
   return <div className="homedepartmentcard">
   <span>{icon}</span>
@@ -11,4 +13,4 @@ const QuickLlinkCard = ({icon, linkTitle})=>{
   <p>{linkTitle}</p>
   </div>
 }
-export {HomeDepartmentCard, QuickLlinkCard}
+export {HomeDepartmentCard, QuickLlinkCard};

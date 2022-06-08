@@ -1,0 +1,8 @@
+.notfound h1{
+  color: red;
+}
+.notfound h2{
+  padding-top:0px;
+  font-size: 32px;
+  font-family: sans-serif;
+}
