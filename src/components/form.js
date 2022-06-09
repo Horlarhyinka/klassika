@@ -22,11 +22,11 @@ const funcs = {
 const data = {email:userEmail,Tel:userTel,password:userPassword};
 
   const handleSubmit=()=>{
-    fetch('/sign-up',
+    fetch('/sign-up',{
   method:"post",
   header:{"Content-type":"application/json"},
-  body:JSON.stringify(data))
-  }
+  body:JSON.stringify(data)})=====
+}
 
 const sections = fields.map((field,i) =>{
   return (
