@@ -1,0 +1,33 @@
+.homedepartmentcard{
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.048);
+  width: 45%;
+  border: 1px solid rgba(61, 60, 60, 0.473);
+  margin: 15px ;
+  border-radius: 45px;
+  align-items: center;
+}
+
+.homedepartmentcard span{
+  color: rgba(255, 255, 255, 0.61) !important;
+  font-size: 120px;
+  padding: 0px;
+
+}
+
+.homedepartmentcard span,.homedepartmentcard p{
+  display:inline-block;
+  margin: 20px;
+
+}
+.homedepartmentcard p{
+  font-weight: lighter;
+  font-size: 38px;
+  
+  
+}
+.homedepartmentcard span{
+  color: orangered;
+  font-weight: bold;
+
+}

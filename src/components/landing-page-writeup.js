@@ -6,5 +6,5 @@ const LandingPageWriteUp = () => {
       <h2 className='writeup'><span>auto</span>-care</h2>
     </div> );
 }
- 
+
 export default LandingPageWriteUp;

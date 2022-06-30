@@ -4,7 +4,11 @@ const SignInForm = () => {
 
     const fields = [{fieldname:"email",type:"email"},{fieldname: "password", type: "password"}]
 
-    return ( <Form title={"sign-in"} fields={fields} />);
+    return (<div>
+
+                <Form title={"sign-in"} fields={fields} btnTitle={"Login"}/>
+                <p>login as an administrator </p>
+            </div>);
 }
- 
+
 export default SignInForm;

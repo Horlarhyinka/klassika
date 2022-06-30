@@ -12,8 +12,7 @@ const sections = fields.map((field,i) =>{
     </div>
   )
 })
-
-  return (<form className={`${title}Form`} action={url} method = {method}>
+  return (<form className={`${title}Form`} action={url} method = "post">
     { sections }
     <Btn btnTitle={btnTitle} title={title} />
 
