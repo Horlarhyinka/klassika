@@ -1,18 +1,14 @@
 import Btn from './btn.js';
 import './styles/form.css';
-import {validate, ErrMessage} from '../functions/validator.js';
+import {validate } from '../functions/validator.js';
 
 const Form = ({title, btnTitle, fields, method, url }) => {
-const sections = fields.map((field,i) =>{
-  const status = {
-    email: ""
-  }
 
+const sections = fields.map((field,i) =>{
   return (
     <div key={i + "field"}>
       <label htmlFor={field.fieldname}>{field.fieldname}</label>
-      <input name= {field.fieldname} status={status[field.fieldname]} className={"inputField"} onChange={(e)=>validate(field.fieldname,e)}  type={field.type}  />
-      <ErrMessage field={field.fieldname} status={status[field.fieldname]} />
+      <input name= {field.fieldname}  className={"inputField"} onChange={(e)=>validate(field.fieldname,e)}  type={field.type}  />
     </div>
   )
 })
